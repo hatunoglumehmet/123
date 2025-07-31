@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <!-- General Mod Strings -->
+    <string id="edw_mod_name" text="Enhanced Diplomacy &amp; Warfare" />
+    <string id="edw_mod_description" text="A comprehensive mod enhancing diplomacy, warfare, statistics, and many other aspects of Bannerlord." />
+    
+    <!-- Settings -->
+    <string id="edw_settings_title" text="Enhanced Diplomacy &amp; Warfare Settings" />
+    <string id="edw_general_settings" text="General Settings" />
+    <string id="edw_diplomacy_settings" text="Diplomacy Settings" />
+    <string id="edw_army_settings" text="Army &amp; Party Settings" />
+    <string id="edw_rebellion_settings" text="Rebellion Settings" />
+    <string id="edw_economy_settings" text="Economy Settings" />
+    <string id="edw_graphics_settings" text="Graphics Settings" />
+    <string id="edw_statistics_settings" text="Statistics Settings" />
+    <string id="edw_bandit_settings" text="Bandit Enhancement Settings" />
+    <string id="edw_performance_settings" text="Performance Settings" />
+    
+    <!-- New Faction Names -->
+    <string id="edw_trade_fed" text="Enhanced Trade Federation" />
+    <string id="edw_trade_fed_short" text="ETF" />
+    <string id="edw_trade_fed_desc" text="A powerful federation of merchants controlling trade routes across the continent. They excel in commerce and have well-equipped armies funded by their vast wealth." />
+    
+    <string id="edw_north_alliance" text="Northern Clans Alliance" />
+    <string id="edw_north_alliance_short" text="NCA" />
+    <string id="edw_north_alliance_desc" text="United clans from the frozen north, known for their fierce warriors and harsh traditions. They fight with berserker fury and know no fear in battle." />
+    
+    <string id="edw_desert_conf" text="Desert Confederacy" />
+    <string id="edw_desert_conf_short" text="DC" />
+    <string id="edw_desert_conf_desc" text="Nomadic tribes united under one banner, masters of desert warfare and trade. Their swift cavalry and knowledge of the desert makes them formidable foes." />
+    
+    <string id="edw_mountain_rep" text="Mountain Republic" />
+    <string id="edw_mountain_rep_short" text="MR" />
+    <string id="edw_mountain_rep_desc" text="A republic of mountain dwellers who value freedom and independence above all. Their guerrilla tactics and mountain fortresses make them nearly impossible to conquer." />
+    
+    <string id="edw_sea_peoples" text="Sea Peoples Coalition" />
+    <string id="edw_sea_peoples_short" text="SPC" />
+    <string id="edw_sea_peoples_desc" text="Maritime traders and raiders who control the coastal regions and sea routes. Their naval expertise and amphibious warfare capabilities are unmatched." />
+    
+    <string id="edw_free_companies" text="Free Companies Brotherhood" />
+    <string id="edw_free_companies_short" text="FCB" />
+    <string id="edw_free_companies_desc" text="Professional mercenaries and sellswords united for mutual protection and profit. They fight with discipline and use the most advanced military equipment available." />
+    
+    <!-- Statistics Interface -->
+    <string id="edw_stats_title" text="Player Statistics" />
+    <string id="edw_stats_level" text="Level" />
+    <string id="edw_stats_experience" text="Experience" />
+    <string id="edw_stats_next_level" text="Next Level" />
+    <string id="edw_stats_battles_won" text="Battles Won" />
+    <string id="edw_stats_battles_lost" text="Battles Lost" />
+    <string id="edw_stats_enemies_killed" text="Enemies Killed" />
+    <string id="edw_stats_prisoners_taken" text="Prisoners Taken" />
+    <string id="edw_stats_settlements_captured" text="Settlements Captured" />
+    <string id="edw_stats_trade_profit" text="Trade Profit" />
+    <string id="edw_stats_diplomatic_successes" text="Diplomatic Successes" />
+    <string id="edw_stats_quests_completed" text="Quests Completed" />
+    <string id="edw_stats_tournaments_won" text="Tournaments Won" />
+    <string id="edw_stats_days_played" text="Days Played" />
+    <string id="edw_stats_renown_gained" text="Renown Gained" />
+    <string id="edw_stats_influence_gained" text="Influence Gained" />
+    <string id="edw_stats_gold_earned" text="Gold Earned" />
+    <string id="edw_stats_bandit_parties_defeated" text="Bandit Parties Defeated" />
+    <string id="edw_stats_marriages_arranged" text="Marriages Arranged" />
+    <string id="edw_stats_workshops_owned" text="Workshops Owned" />
+    
+    <!-- Level Bonuses -->
+    <string id="edw_bonus_party_limit" text="Party Limit Bonus" />
+    <string id="edw_bonus_army_size" text="Army Size Bonus" />
+    <string id="edw_bonus_daily_gold" text="Daily Gold Bonus" />
+    <string id="edw_bonus_daily_influence" text="Daily Influence Bonus" />
+    <string id="edw_bonus_morale" text="Morale Bonus" />
+    <string id="edw_bonus_recruitment" text="Recruitment Bonus" />
+    
+    <!-- Messages -->
+    <string id="edw_level_up_message" text="Statistics Level Up! You are now level {LEVEL}!" />
+    <string id="edw_daily_recruitment_message" text="Recruited {COUNT} {TROOP_TYPE} for free!" />
+    <string id="edw_rebellion_started_message" text="Rebellion started in {SETTLEMENT}!" />
+    <string id="edw_kingdom_formed_message" text="{CLAN} has formed a new kingdom!" />
+    <string id="edw_diplomatic_success_message" text="Diplomatic action successful!" />
+    <string id="edw_new_bandit_quest_message" text="New bandit quest available: {QUEST_NAME}" />
+    
+    <!-- Bandit Quest Names -->
+    <string id="edw_bandit_quest_1" text="Eliminate the Raider Camp" />
+    <string id="edw_bandit_quest_2" text="Rescue Captured Merchants" />
+    <string id="edw_bandit_quest_3" text="Destroy the Bandit Stronghold" />
+    <string id="edw_bandit_quest_4" text="Hunt the Bandit Leader" />
+    <string id="edw_bandit_quest_5" text="Recover Stolen Goods" />
+    <string id="edw_bandit_quest_6" text="Clear the Trade Route" />
+    <string id="edw_bandit_quest_7" text="Protect the Caravan" />
+    <string id="edw_bandit_quest_8" text="Infiltrate Bandit Network" />
+    <string id="edw_bandit_quest_9" text="Ransom Negotiations" />
+    <string id="edw_bandit_quest_10" text="Bandit Information Gathering" />
+    
+    <!-- Performance Messages -->
+    <string id="edw_performance_optimized" text="Performance optimizations applied successfully!" />
+    <string id="edw_ai_calculations_reduced" text="AI calculations optimized for better performance!" />
+    
+    <!-- UI Elements -->
+    <string id="edw_open_statistics" text="Open Statistics" />
+    <string id="edw_close" text="Close" />
+    <string id="edw_reset_statistics" text="Reset Statistics" />
+    <string id="edw_export_statistics" text="Export Statistics" />
+    
+    <!-- Installation Guide -->
+    <string id="edw_install_guide_title" text="Enhanced Diplomacy &amp; Warfare - Installation Guide" />
+    <string id="edw_install_step_1" text="1. Download and install Harmony from NexusMods" />
+    <string id="edw_install_step_2" text="2. Download and install Mod Configuration Menu (MCM) v5" />
+    <string id="edw_install_step_3" text="3. Extract this mod to your Bannerlord Modules folder" />
+    <string id="edw_install_step_4" text="4. Enable the mod in the Bannerlord launcher" />
+    <string id="edw_install_step_5" text="5. Configure settings through MCM in-game" />
+  </strings>
+</base>

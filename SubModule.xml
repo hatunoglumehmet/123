@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="Enhanced Diplomacy &amp; Warfare"/>
+  <Id value="EnhancedDiplomacyWarfare"/>
+  <Version value="v1.0.0"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native" DependedModuleType="Official" />
+    <DependedModule Id="SandBoxCore" DependedModuleType="Official" />
+    <DependedModule Id="Sandbox" DependedModuleType="Official" />
+    <DependedModule Id="StoryMode" DependedModuleType="Official" Optional="true" />
+    <DependedModule Id="MCMv5" DependedModuleType="Community" Optional="false" />
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="Enhanced Diplomacy &amp; Warfare"/>
+      <DLLName value="EnhancedDiplomacyWarfare.dll"/>
+      <SubModuleClassType value="EnhancedDiplomacyWarfare.SubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
+    </SubModule>
+  </SubModules>
+  <Xmls>
+    <XmlNode>
+      <XmlName id="Factions" path="factions"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="npcs"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="Heroes" path="heroes"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+      </IncludedGameTypes>
+    </XmlNode>
+  </Xmls>
+</Module>

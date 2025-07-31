@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Turkish" />
+  </tags>
+  <strings>
+    <!-- Genel Mod Yazıları -->
+    <string id="edw_mod_name" text="Gelişmiş Diplomasi ve Savaş" />
+    <string id="edw_mod_description" text="Bannerlord'un diplomasi, savaş, istatistik ve diğer birçok yönünü geliştiren kapsamlı bir mod." />
+    
+    <!-- Ayarlar -->
+    <string id="edw_settings_title" text="Gelişmiş Diplomasi ve Savaş Ayarları" />
+    <string id="edw_general_settings" text="Genel Ayarlar" />
+    <string id="edw_diplomacy_settings" text="Diplomasi Ayarları" />
+    <string id="edw_army_settings" text="Ordu ve Grup Ayarları" />
+    <string id="edw_rebellion_settings" text="İsyan Ayarları" />
+    <string id="edw_economy_settings" text="Ekonomi Ayarları" />
+    <string id="edw_graphics_settings" text="Grafik Ayarları" />
+    <string id="edw_statistics_settings" text="İstatistik Ayarları" />
+    <string id="edw_bandit_settings" text="Haydut Geliştirme Ayarları" />
+    <string id="edw_performance_settings" text="Performans Ayarları" />
+    
+    <!-- Yeni Faction İsimleri -->
+    <string id="edw_trade_fed" text="Gelişmiş Ticaret Federasyonu" />
+    <string id="edw_trade_fed_short" text="GTF" />
+    <string id="edw_trade_fed_desc" text="Kıta genelindeki ticaret yollarını kontrol eden güçlü bir tüccar federasyonu. Ticarette uzman olan ve muazzam zenginlikleri tarafından finanse edilen iyi donanımlı ordulara sahipler." />
+    
+    <string id="edw_north_alliance" text="Kuzey Klanları İttifakı" />
+    <string id="edw_north_alliance_short" text="KKİ" />
+    <string id="edw_north_alliance_desc" text="Donmuş kuzeyden gelen, vahşi savaşçıları ve sert gelenekleri ile bilinen birleşmiş klanlar. Berserker öfkesi ile savaşırlar ve savaşta korku nedir bilmezler." />
+    
+    <string id="edw_desert_conf" text="Çöl Konfederasyonu" />
+    <string id="edw_desert_conf_short" text="ÇK" />
+    <string id="edw_desert_conf_desc" text="Tek bir sancak altında birleşmiş göçebe kabileler, çöl savaşı ve ticaretin ustaları. Hızlı süvarileri ve çöl bilgisi onları müthiş düşmanlar yapar." />
+    
+    <string id="edw_mountain_rep" text="Dağ Cumhuriyeti" />
+    <string id="edw_mountain_rep_short" text="DC" />
+    <string id="edw_mountain_rep_desc" text="Özgürlük ve bağımsızlığı her şeyden üstün tutan dağlık bölge sakinlerinin cumhuriyeti. Gerilla taktikleri ve dağ kaleleri onları neredeyse fethedilmez yapar." />
+    
+    <string id="edw_sea_peoples" text="Deniz Halkları Koalisyonu" />
+    <string id="edw_sea_peoples_short" text="DHK" />
+    <string id="edw_sea_peoples_desc" text="Kıyı bölgeleri ve deniz yollarını kontrol eden denizci tüccarlar ve akıncılar. Denizcilik uzmanlıkları ve amfibi savaş yetenekleri eşsizdir." />
+    
+    <string id="edw_free_companies" text="Özgür Şirketler Kardeşliği" />
+    <string id="edw_free_companies_short" text="ÖŞK" />
+    <string id="edw_free_companies_desc" text="Karşılıklı koruma ve kazanç için birleşmiş profesyonel paralı askerler ve kiralık kılıçlar. Disiplinle savaşırlar ve mevcut en gelişmiş askeri teçhizatı kullanırlar." />
+    
+    <!-- İstatistik Arayüzü -->
+    <string id="edw_stats_title" text="Oyuncu İstatistikleri" />
+    <string id="edw_stats_level" text="Seviye" />
+    <string id="edw_stats_experience" text="Deneyim" />
+    <string id="edw_stats_next_level" text="Sonraki Seviye" />
+    <string id="edw_stats_battles_won" text="Kazanılan Savaşlar" />
+    <string id="edw_stats_battles_lost" text="Kaybedilen Savaşlar" />
+    <string id="edw_stats_enemies_killed" text="Öldürülen Düşmanlar" />
+    <string id="edw_stats_prisoners_taken" text="Alınan Esirler" />
+    <string id="edw_stats_settlements_captured" text="Ele Geçirilen Yerleşimler" />
+    <string id="edw_stats_trade_profit" text="Ticaret Karı" />
+    <string id="edw_stats_diplomatic_successes" text="Diplomatik Başarılar" />
+    <string id="edw_stats_quests_completed" text="Tamamlanan Görevler" />
+    <string id="edw_stats_tournaments_won" text="Kazanılan Turnuvalar" />
+    <string id="edw_stats_days_played" text="Oynanan Günler" />
+    <string id="edw_stats_renown_gained" text="Kazanılan Şöhret" />
+    <string id="edw_stats_influence_gained" text="Kazanılan Nüfuz" />
+    <string id="edw_stats_gold_earned" text="Kazanılan Altın" />
+    <string id="edw_stats_bandit_parties_defeated" text="Yenilen Haydut Grupları" />
+    <string id="edw_stats_marriages_arranged" text="Düzenlenen Evlilikler" />
+    <string id="edw_stats_workshops_owned" text="Sahip Olunan Atölyeler" />
+    
+    <!-- Seviye Bonusları -->
+    <string id="edw_bonus_party_limit" text="Grup Limiti Bonusu" />
+    <string id="edw_bonus_army_size" text="Ordu Boyutu Bonusu" />
+    <string id="edw_bonus_daily_gold" text="Günlük Altın Bonusu" />
+    <string id="edw_bonus_daily_influence" text="Günlük Nüfuz Bonusu" />
+    <string id="edw_bonus_morale" text="Moral Bonusu" />
+    <string id="edw_bonus_recruitment" text="Asker Alma Bonusu" />
+    
+    <!-- Mesajlar -->
+    <string id="edw_level_up_message" text="İstatistik Seviye Atlama! Artık {LEVEL} seviyesiniz!" />
+    <string id="edw_daily_recruitment_message" text="Ücretsiz {COUNT} {TROOP_TYPE} alındı!" />
+    <string id="edw_rebellion_started_message" text="{SETTLEMENT} bölgesinde isyan başladı!" />
+    <string id="edw_kingdom_formed_message" text="{CLAN} yeni bir krallık kurdu!" />
+    <string id="edw_diplomatic_success_message" text="Diplomatik eylem başarılı!" />
+    <string id="edw_new_bandit_quest_message" text="Yeni haydut görevi mevcut: {QUEST_NAME}" />
+    
+    <!-- Haydut Görev İsimleri -->
+    <string id="edw_bandit_quest_1" text="Akıncı Kampını Yok Et" />
+    <string id="edw_bandit_quest_2" text="Yakalanan Tüccarları Kurtar" />
+    <string id="edw_bandit_quest_3" text="Haydut Kalesini Yıkım Et" />
+    <string id="edw_bandit_quest_4" text="Haydut Liderini Avla" />
+    <string id="edw_bandit_quest_5" text="Çalınan Malları Geri Al" />
+    <string id="edw_bandit_quest_6" text="Ticaret Yolunu Temizle" />
+    <string id="edw_bandit_quest_7" text="Kervanı Koru" />
+    <string id="edw_bandit_quest_8" text="Haydut Ağına Sız" />
+    <string id="edw_bandit_quest_9" text="Fidye Müzakereleri" />
+    <string id="edw_bandit_quest_10" text="Haydut Bilgi Toplama" />
+    
+    <!-- Performans Mesajları -->
+    <string id="edw_performance_optimized" text="Performans optimizasyonları başarıyla uygulandı!" />
+    <string id="edw_ai_calculations_reduced" text="AI hesaplamaları daha iyi performans için optimize edildi!" />
+    
+    <!-- UI Elemanları -->
+    <string id="edw_open_statistics" text="İstatistikleri Aç" />
+    <string id="edw_close" text="Kapat" />
+    <string id="edw_reset_statistics" text="İstatistikleri Sıfırla" />
+    <string id="edw_export_statistics" text="İstatistikleri Dışa Aktar" />
+    
+    <!-- Kurulum Rehberi -->
+    <string id="edw_install_guide_title" text="Gelişmiş Diplomasi ve Savaş - Kurulum Rehberi" />
+    <string id="edw_install_step_1" text="1. NexusMods'tan Harmony'yi indirin ve kurun" />
+    <string id="edw_install_step_2" text="2. Mod Configuration Menu (MCM) v5'i indirin ve kurun" />
+    <string id="edw_install_step_3" text="3. Bu modu Bannerlord Modules klasörünüze çıkarın" />
+    <string id="edw_install_step_4" text="4. Bannerlord başlatıcısında modu etkinleştirin" />
+    <string id="edw_install_step_5" text="5. Oyun içinde MCM aracılığıyla ayarları yapılandırın" />
+  </strings>
+</base>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+  <!-- Enhanced Trade Federation -->
+  <Faction id="enhanced_trade_federation" 
+           name="{=edw_trade_fed}Enhanced Trade Federation"
+           short_name="{=edw_trade_fed_short}ETF"
+           text="{=edw_trade_fed_desc}A powerful federation of merchants controlling trade routes across the continent."
+           tier="2"
+           culture="Culture.empire"
+           banner_key="11.142.142.1536.1536.768.788.1.0.0.505.142.142.400.400.764.764.1.0.0">
+
+    <relationships>
+      <relationship faction="kingdom_1" relationship="0" />
+      <relationship faction="kingdom_2" relationship="0" />
+      <relationship faction="kingdom_3" relationship="0" />
+      <relationship faction="kingdom_4" relationship="0" />
+      <relationship faction="kingdom_5" relationship="0" />
+      <relationship faction="kingdom_6" relationship="0" />
+    </relationships>
+  </Faction>
+
+  <!-- Northern Clans Alliance -->
+  <Faction id="northern_clans_alliance" 
+           name="{=edw_north_alliance}Northern Clans Alliance"
+           short_name="{=edw_north_alliance_short}NCA"
+           text="{=edw_north_alliance_desc}United clans from the frozen north, known for their fierce warriors and harsh traditions."
+           tier="2"
+           culture="Culture.sturgia"
+           banner_key="11.127.127.1536.1536.768.788.1.0.0.301.127.127.300.300.764.664.1.0.0.301.127.127.300.300.764.864.1.0.0">
+
+    <relationships>
+      <relationship faction="kingdom_1" relationship="-1" />
+      <relationship faction="kingdom_2" relationship="0" />
+      <relationship faction="kingdom_3" relationship="0" />
+      <relationship faction="kingdom_4" relationship="1" />
+      <relationship faction="kingdom_5" relationship="0" />
+      <relationship faction="kingdom_6" relationship="0" />
+    </relationships>
+  </Faction>
+
+  <!-- Desert Confederacy -->
+  <Faction id="desert_confederacy" 
+           name="{=edw_desert_conf}Desert Confederacy"
+           short_name="{=edw_desert_conf_short}DC"
+           text="{=edw_desert_conf_desc}Nomadic tribes united under one banner, masters of desert warfare and trade."
+           tier="2"
+           culture="Culture.aserai"
+           banner_key="11.116.116.1536.1536.768.788.1.0.0.427.116.116.450.450.764.764.1.0.0">
+
+    <relationships>
+      <relationship faction="kingdom_1" relationship="0" />
+      <relationship faction="kingdom_2" relationship="-1" />
+      <relationship faction="kingdom_3" relationship="1" />
+      <relationship faction="kingdom_4" relationship="0" />
+      <relationship faction="kingdom_5" relationship="0" />
+      <relationship faction="kingdom_6" relationship="0" />
+    </relationships>
+  </Faction>
+
+  <!-- Mountain Republic -->
+  <Faction id="mountain_republic" 
+           name="{=edw_mountain_rep}Mountain Republic"
+           short_name="{=edw_mountain_rep_short}MR"
+           text="{=edw_mountain_rep_desc}A republic of mountain dwellers who value freedom and independence above all."
+           tier="2"
+           culture="Culture.battania"
+           banner_key="11.35.35.1536.1536.768.788.1.0.0.216.35.35.400.400.764.764.1.0.0.216.35.35.200.200.664.664.1.0.0.216.35.35.200.200.864.664.1.0.0">
+
+    <relationships>
+      <relationship faction="kingdom_1" relationship="0" />
+      <relationship faction="kingdom_2" relationship="0" />
+      <relationship faction="kingdom_3" relationship="0" />
+      <relationship faction="kingdom_4" relationship="0" />
+      <relationship faction="kingdom_5" relationship="-1" />
+      <relationship faction="kingdom_6" relationship="1" />
+    </relationships>
+  </Faction>
+
+  <!-- Sea Peoples Coalition -->
+  <Faction id="sea_peoples_coalition" 
+           name="{=edw_sea_peoples}Sea Peoples Coalition"
+           short_name="{=edw_sea_peoples_short}SPC"
+           text="{=edw_sea_peoples_desc}Maritime traders and raiders who control the coastal regions and sea routes."
+           tier="2"
+           culture="Culture.vlandia"
+           banner_key="11.14.14.1536.1536.768.788.1.0.0.318.14.14.350.350.764.764.1.0.0.318.14.14.150.150.664.614.1.0.0.318.14.14.150.150.864.614.1.0.0">
+
+    <relationships>
+      <relationship faction="kingdom_1" relationship="1" />
+      <relationship faction="kingdom_2" relationship="0" />
+      <relationship faction="kingdom_3" relationship="0" />
+      <relationship faction="kingdom_4" relationship="0" />
+      <relationship faction="kingdom_5" relationship="0" />
+      <relationship faction="kingdom_6" relationship="-1" />
+    </relationships>
+  </Faction>
+
+  <!-- Free Companies Brotherhood -->
+  <Faction id="free_companies" 
+           name="{=edw_free_companies}Free Companies Brotherhood"
+           short_name="{=edw_free_companies_short}FCB"
+           text="{=edw_free_companies_desc}Professional mercenaries and sellswords united for mutual protection and profit."
+           tier="1"
+           culture="Culture.empire"
+           banner_key="11.40.40.1536.1536.768.788.1.0.0.503.40.40.300.300.764.764.1.0.0.510.40.40.200.400.764.764.1.0.0">
+
+    <relationships>
+      <relationship faction="kingdom_1" relationship="0" />
+      <relationship faction="kingdom_2" relationship="0" />
+      <relationship faction="kingdom_3" relationship="0" />
+      <relationship faction="kingdom_4" relationship="0" />
+      <relationship faction="kingdom_5" relationship="0" />
+      <relationship faction="kingdom_6" relationship="0" />
+    </relationships>
+  </Faction>
+</Factions>
