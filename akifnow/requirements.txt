@@ -1,0 +1,8 @@
+PyQt6==6.7.0
+aiortc==1.7.0
+av==11.0.0
+mss==9.0.1
+numpy==2.0.1
+sounddevice==0.4.7
+pynput==1.7.7
+psutil==6.0.0
